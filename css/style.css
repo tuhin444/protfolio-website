@@ -1,0 +1,44 @@
+html{
+	overflow: hidden;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Roboto', sans-serif;
+
+}
+@font-face{
+	font-family: 'Roboto', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+.header-top{
+	background-color: #000;
+	color: #fff;
+	font-size: 15px;
+	padding: 6px;
+}
+.content-section{
+	background-image: url(../image/bg-1.png);
+	background-size:cover;
+	background-repeat: no-repeat;
+
+}
+.content-area-img img{
+	width: 100%;
+	height: auto;
+}
+.main-navber {
+	margin: 0px;
+	padding: 0px;
+}
+.main-navber li{
+	list-style: none;
+	float: right;
+}
+.main-navber li a{
+	color: #000;
+	font-size: 18px;
+	padding: 10px 13px;
+}
